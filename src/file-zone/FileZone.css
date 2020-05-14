@@ -1,0 +1,38 @@
+#file-zone {
+  background-color:#f1f0f0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  position: relative;
+}
+
+#file {
+  width: 600px;
+  flex-grow: 1;
+  background-color: #fff;
+  border: 1px solid #e4dede;
+  padding: 15px;
+}
+
+.synonyms {
+  position: absolute;
+  max-width: 300px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #e4dede;
+  top: 5px;
+  right: 15%;
+  padding: 15px;
+}
+
+.synonyms ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.synonyms ul li:not(:last-child) {
+  margin-bottom: 5px;
+}
